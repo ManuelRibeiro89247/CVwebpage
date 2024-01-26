@@ -1,0 +1,104 @@
+{
+  "main": {
+    "name":"Manuel Ribeiro",
+    "description":"My name is Manuel Ribeiro and i currently live in Braga, Portugal. The following webpage, built with React.JS, helps to complement my CV by better demonstrating former projects that i have developed",
+    "image":"face_full.jpg",
+    "bio":" Technology has always been an important part of my life and I have always been interested in the different ways it has changed society as a whole and how it continuous to do so. I love overcoming challenges as a team and exploring new technologies and philosophies.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "manuelmribeiro2021@gmail.com",
+    "phone": "(+351) 925640960",
+    "github":"https://github.com/ManuelRibeiro89247",
+    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "address":{
+      "street":"Rua do Outeiro 64",
+      "city":"Braga",
+      "state":"(Portugal)",
+      "zip": "4715-082"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "resumedownloadpdf":"CV_ManuelRibeiro.pdf",
+    "resumedownloaddocx":"CV_ManuelRibeiro.docx",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://linkedin.com/in/manuelrribeiro",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/ManuelRibeiro89247",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"",
+    "education":[
+      {
+        "school":"University of Minho (Guimarães, Portugal)",
+        "degree":"Masters in Engineering and Information Systems Management",
+        "graduated":"January 2024",
+        "description":""
+      }
+    ],
+    "work":[
+      {
+        "company":"Sign Language Translation using Mixed Reality (18)",
+        "title":"",
+        "years":"",
+        "description":"Mixed Reality app created in Unity capable of turning spoken Portuguese/Spanish/French into written Portuguese and capable of identifying some Portuguese Sign Language (LGP) signs and translating them to written Portuguese."
+      }
+    ],
+    "skills":[
+      {
+        "name":"C#",
+        "level":"75%"
+      },
+      {
+        "name":"HTML/CSS",
+        "level":"70%"
+      },
+      {
+        "name":"React.JS",
+        "level":"40%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"35%"
+      },
+      {
+        "name":"Python",
+        "level":"25%"
+      }
+    ],
+    "apps":[
+      {
+        "name":"Unity",
+        "level":"35%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Thesis",
+        "category":"Unity app",
+        "image":"Tese.png",
+        "url":"https://github.com/ManuelRibeiro89247/Thesis"
+      },
+      {
+        "title":"Thesis basic proxy server",
+        "category":"(flask) basic server)",
+        "image":"Tese(proxyserver).png",
+        "url":"https://github.com/ManuelRibeiro89247/Thesis_proxy_server"
+      },
+      {
+        "title":"CV webpage",
+        "category":"current website viewed",
+        "image":"CVwebpage.png",
+        "url":"https://github.com/ManuelRibeiro89247/CVwebpage"
+      }
+    ]
+  }
+}
