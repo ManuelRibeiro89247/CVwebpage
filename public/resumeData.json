@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Manuel Ribeiro",
-    "description":"My name is Manuel Ribeiro and i currently live in Braga, Portugal. The following webpage, built with React.JS, helps to complement my CV by better demonstrating former projects that i have developed",
+    "description":"My name is Manuel Ribeiro and I currently live in Braga, Portugal. The following webpage, built with React.JS, helps to complement my CV by better demonstrating former projects that i have developed",
     "image":"face_full.jpg",
     "bio":" Technology has always been an important part of my life and I have always been interested in the different ways it has changed society as a whole and how it continuous to do so. I love overcoming challenges as a team and exploring new technologies and philosophies.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
@@ -19,6 +19,7 @@
     "resumedownload":"http://timbakerdev.com",
     "resumedownloadpdf":"CV_ManuelRibeiro.pdf",
     "resumedownloaddocx":"CV_ManuelRibeiro.docx",
+    "thesispdf":"LGM-ManuelRibeiro.pdf",
     "social":[
       {
         "name":"linkedin",
@@ -90,13 +91,13 @@
       {
         "title":"Thesis basic proxy server",
         "category":"(flask) basic server)",
-        "image":"Tese(proxyserver).png",
+        "image":"Tese(proxyserver).jpg",
         "url":"https://github.com/ManuelRibeiro89247/Thesis_proxy_server"
       },
       {
         "title":"CV webpage",
         "category":"current website viewed",
-        "image":"CVwebpage.png",
+        "image":"CVwebpage.jpg",
         "url":"https://github.com/ManuelRibeiro89247/CVwebpage"
       }
     ]

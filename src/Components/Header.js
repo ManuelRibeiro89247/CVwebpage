@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
-import 'C:/Users/Utilizador/react-nice-resume/src/App.css';
+import 'C:/Users/Utilizador/CVwebpage/src/App.css';
 
 class Header extends Component {
   render() {

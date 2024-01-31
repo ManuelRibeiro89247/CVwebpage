@@ -14,6 +14,7 @@ class Resume extends Component {
   render() {
     if (!this.props.data) return null;
 
+    const thesispdf = this.props.data.thesispdf;
     const skillmessage = this.props.data.skillmessage;
     const education = this.props.data.education.map(function (education) {
       return (
@@ -93,7 +94,16 @@ class Resume extends Component {
               </h1>
             </div>
 
-            <div className="nine columns main-col">{work}</div>
+            <div className="nine columns main-col">{work}
+            <div className="download">
+                  <p>
+                    <a href="./LGM-ManuelRibeiro.pdf" className="button">
+                      <i className="thesisbotton fa fa-download"></i>Download Thesis (.pdf)
+                    </a>
+                  </p>
+                </div>
+            </div>
+           
           </div>
         </Slide>
 

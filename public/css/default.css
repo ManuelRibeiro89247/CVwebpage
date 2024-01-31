@@ -802,6 +802,11 @@ properly.
 	text-align: center !important;
 }
 
+/**/
 
+#resume .download .button { background: #0762f9; color: #fff;}
 
-
+#resume .download .button:hover {
+   background: #444;
+   color: #fff;
+}
