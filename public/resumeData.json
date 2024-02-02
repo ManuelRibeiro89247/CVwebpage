@@ -19,7 +19,6 @@
     "resumedownload":"http://timbakerdev.com",
     "resumedownloadpdf":"CV_ManuelRibeiro.pdf",
     "resumedownloaddocx":"CV_ManuelRibeiro.docx",
-    "thesispdf":"LGM-ManuelRibeiro.pdf",
     "social":[
       {
         "name":"linkedin",
@@ -34,6 +33,7 @@
     ]
   },
   "resume":{
+    "thesispdf":"LGM-ManuelRibeiro.pdf",
     "skillmessage":"",
     "education":[
       {
@@ -76,9 +76,36 @@
     "apps":[
       {
         "name":"Unity",
-        "level":"35%"
+        "level":"45%"
       }
-    ]
+    ],
+      "certificates": [
+        {
+          "title":"Certificate 1",
+          "category":"English Certificate",
+          "image":"Placeholder.jpg",
+          "url":""
+        },
+        {
+          "title":"Certificate 2",
+          "category":"English Certificate",
+          "image":"Placeholder.jpg",
+          "url":""
+        },
+        {
+          "title":"Certificate 3",
+          "category":"English Certificate",
+          "image":"Placeholder.jpg",
+          "url":""
+        },
+        {
+          "title":"Certificate 4",
+          "category":"English Certificate",
+          "image":"Placeholder.jpg",
+          "url":""
+        }
+      ]
+      
   },
   "portfolio":{
     "projects": [
@@ -101,5 +128,6 @@
         "url":"https://github.com/ManuelRibeiro89247/CVwebpage"
       }
     ]
+    
   }
 }

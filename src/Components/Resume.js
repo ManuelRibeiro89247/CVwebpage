@@ -1,7 +1,20 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import Slide from "react-reveal";
 
+let id = 0;
+
+
+
 class Resume extends Component {
+  
+  state = {
+    certificatesVisible: false,
+  }
+
+  toggleCertificates = () => {
+    this.setState({ certificatesVisible: !this.state.certificatesVisible });
+};
+
   getRandomColor() {
     let letters = "0123456789ABCDEF";
     let color = "#";
@@ -12,6 +25,8 @@ class Resume extends Component {
   }
 
   render() {
+
+
     if (!this.props.data) return null;
 
     const thesispdf = this.props.data.thesispdf;
@@ -42,6 +57,7 @@ class Resume extends Component {
       );
     });
 
+
     const skills = this.props.data.skills.map((skills) => {
       const backgroundColor = this.getRandomColor();
       const className = "bar-expand " + skills.name.toLowerCase();
@@ -54,7 +70,7 @@ class Resume extends Component {
         </li>
       );
     });
-
+    console.log(this.props.data.apps);
     const apps = this.props.data.apps.map((apps) => {
       const backgroundColor = this.getRandomColor();
       const className = "bar-expand " + apps.name.toLowerCase();
@@ -65,6 +81,28 @@ class Resume extends Component {
           <span style={{ width, backgroundColor }} className={className}></span>
           <em>{apps.name}</em>
         </li>
+      );
+    });
+
+    console.log(this.props.data.certificates);
+    const certificates = this.props.data.certificates.map((certificates) => {
+      let certificatesImage = "images/" + certificates.image;
+     
+      let imageStyle = { 
+
+        objectFit: "cover"
+     };
+
+
+      return (
+        <div key={id++} className="columns portfolio-item">
+          <div className="item-wrap" >
+          <a href={certificates.url}>
+            <img alt={certificates.title} src={certificatesImage} style={imageStyle} />
+            </a>
+            <div style={{ textAlign: "center" }}>{certificates.title}</div>
+          </div>
+        </div>
       );
     });
 
@@ -80,9 +118,23 @@ class Resume extends Component {
 
             <div className="nine columns main-col">
               <div className="row item">
-                <div className="twelve columns">{education}</div>
+                <div className="twelve columns">{education}
+
+                <button onClick={() => this.toggleCertificates()}>
+                Display English Certificates
+                </button>
+
+            <div className="twelve columns collapsed" style={{ display: this.state.certificatesVisible ? 'block' : 'none' }}>
+              <div className="bgrid-halves s-bgrid-thirds cf">
+                {certificates}
               </div>
             </div>
+
+                </div>
+              </div>
+            </div>
+
+            
           </div>
         </Slide>
 
@@ -97,7 +149,7 @@ class Resume extends Component {
             <div className="nine columns main-col">{work}
             <div className="download">
                   <p>
-                    <a href="./LGM-ManuelRibeiro.pdf" className="button">
+                    <a href={thesispdf} className="button">
                       <i className="thesisbotton fa fa-download"></i>Download Thesis (.pdf)
                     </a>
                   </p>
@@ -142,7 +194,11 @@ class Resume extends Component {
             </div>
           </div>
         </Slide>
+
+        
       </section>
+
+      
     );
   }
 }
