@@ -95,6 +95,7 @@ class Resume extends Component {
 
 
       return (
+        <Slide left duration={1300}>
         <div key={id++} className="columns portfolio-item">
           <div className="item-wrap" >
           <a href={certificates.url}>
@@ -103,6 +104,7 @@ class Resume extends Component {
             <div style={{ textAlign: "center" }}>{certificates.title}</div>
           </div>
         </div>
+        </Slide>
       );
     });
 

@@ -53,12 +53,12 @@
     ],
     "skills":[
       {
-        "name":"C#",
-        "level":"75%"
-      },
-      {
         "name":"HTML/CSS",
         "level":"70%"
+      },
+      {
+        "name":"C#",
+        "level":"55%"
       },
       {
         "name":"React.JS",
@@ -81,28 +81,34 @@
     ],
       "certificates": [
         {
-          "title":"Certificate 1",
+          "title":"Haileybury College (2013)",
           "category":"English Certificate",
-          "image":"Placeholder.jpg",
-          "url":""
+          "image":"certificate2013.jpg",
+          "url":"2013Jul M Inglês Londres Haileybury College.pdf"
         },
         {
-          "title":"Certificate 2",
+          "title":"Language Explorer Dublin (2014)",
           "category":"English Certificate",
-          "image":"Placeholder.jpg",
-          "url":""
+          "image":"certificate2014.jpg",
+          "url":"2014Jul M Inglês Dublin MalvernHouse.pdf"
         },
         {
-          "title":"Certificate 3",
+          "title":"Cambridge Certificate B2 (2015)",
           "category":"English Certificate",
-          "image":"Placeholder.jpg",
-          "url":""
+          "image":"certificate2015.jpg",
+          "url":"2015Mai M Cambridge ESOL Int.pdf"
         },
         {
-          "title":"Certificate 4",
+          "title":"Haileybury College (2016)",
           "category":"English Certificate",
-          "image":"Placeholder.jpg",
-          "url":""
+          "image":"certificate2016.jpg",
+          "url":"2016Jul M Inglês Londres Haileybury College.pdf"
+        },
+        {
+          "title":"LAL New York (2017)",
+          "category":"English Certificate",
+          "image":"certificate2017.jpg",
+          "url":"2017Jul M Inglês NewYork LAL.pdf"
         }
       ]
       
