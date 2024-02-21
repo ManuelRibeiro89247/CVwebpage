@@ -2,7 +2,7 @@
   "main": {
     "name":"Manuel Ribeiro",
     "description":"My name is Manuel Ribeiro and I currently live in Braga, Portugal. The following webpage, built with React.JS, helps to complement my CV by better demonstrating former projects that i have developed",
-    "image":"face_full.jpg",
+    "image":"profilepic(square).jpg",
     "bio":" Technology has always been an important part of my life and I have always been interested in the different ways it has changed society as a whole and how it continuous to do so. I love overcoming challenges as a team and exploring new technologies and philosophies.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "manuelmribeiro2021@gmail.com",
@@ -34,6 +34,7 @@
   },
   "resume":{
     "thesispdf":"LGM-ManuelRibeiro.pdf",
+    "thesiscertificatepdf":"images/Placeholder.jpg",
     "skillmessage":"",
     "education":[
       {
@@ -50,6 +51,7 @@
         "years":"",
         "description":"Mixed Reality app created in Unity capable of turning spoken Portuguese/Spanish/French into written Portuguese and capable of identifying some Portuguese Sign Language (LGP) signs and translating them to written Portuguese."
       }
+      
     ],
     "skills":[
       {
@@ -69,14 +71,33 @@
         "level":"35%"
       },
       {
+        "name":"PHP",
+        "level":"20%"
+      },
+      {
         "name":"Python",
-        "level":"25%"
+        "level":"19%"
+      },
+      {
+        "name":"SQL",
+        "level":"15%"
       }
     ],
     "apps":[
       {
+        
         "name":"Unity",
         "level":"45%"
+      },
+      {
+        
+        "name":"OutSystems",
+        "level":"20%"
+      },
+      {
+        
+        "name":"MySQL",
+        "level":"18%"
       }
     ],
       "certificates": [
@@ -84,31 +105,31 @@
           "title":"Haileybury College (2013)",
           "category":"English Certificate",
           "image":"certificate2013.jpg",
-          "url":"2013Jul M Inglês Londres Haileybury College.pdf"
+          "url":"certificate2013.pdf"
         },
         {
           "title":"Language Explorer Dublin (2014)",
           "category":"English Certificate",
           "image":"certificate2014.jpg",
-          "url":"2014Jul M Inglês Dublin MalvernHouse.pdf"
+          "url":"certificate2014.pdf"
         },
         {
           "title":"Cambridge Certificate B2 (2015)",
           "category":"English Certificate",
           "image":"certificate2015.jpg",
-          "url":"2015Mai M Cambridge ESOL Int.pdf"
+          "url":"certificate2015.pdf"
         },
         {
           "title":"Haileybury College (2016)",
           "category":"English Certificate",
           "image":"certificate2016.jpg",
-          "url":"2016Jul M Inglês Londres Haileybury College.pdf"
+          "url":"certificate2016.pdf"
         },
         {
           "title":"LAL New York (2017)",
           "category":"English Certificate",
           "image":"certificate2017.jpg",
-          "url":"2017Jul M Inglês NewYork LAL.pdf"
+          "url":"certificate2017.pdf"
         }
       ]
       
@@ -117,15 +138,27 @@
     "projects": [
       {
         "title":"Thesis",
-        "category":"Unity app",
+        "category":"Unity",
         "image":"Tese.png",
         "url":"https://github.com/ManuelRibeiro89247/Thesis"
       },
       {
         "title":"Thesis basic proxy server",
-        "category":"(flask) basic server)",
+        "category":"server",
         "image":"Tese(proxyserver).jpg",
         "url":"https://github.com/ManuelRibeiro89247/Thesis_proxy_server"
+      },
+      {
+        "title":"Login-Register",
+        "category":"php app",
+        "image":"Login.png",
+        "url":"https://github.com/ManuelRibeiro89247/SimpleLogin-Register"
+      },
+      {
+        "title":"TapMe-AdventuresOfAnAstronaut",
+        "category":"Unity",
+        "image":"astronaut.png",
+        "url":"https://github.com/ManuelRibeiro89247/TapMe-AdventuresOfAnAstronaute"
       },
       {
         "title":"CV webpage",

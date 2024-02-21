@@ -30,6 +30,7 @@ class Resume extends Component {
     if (!this.props.data) return null;
 
     const thesispdf = this.props.data.thesispdf;
+    const thesiscertificatepdf = this.props.data.thesiscertificatepdf;
     const skillmessage = this.props.data.skillmessage;
     const education = this.props.data.education.map(function (education) {
       return (
@@ -122,9 +123,15 @@ class Resume extends Component {
               <div className="row item">
                 <div className="twelve columns">{education}
 
+                                    
+                <a href={thesiscertificatepdf} className="button download second">
+                      <i ></i>Placeholder (.pdf)
+                  </a>
+
                 <button onClick={() => this.toggleCertificates()}>
                 Display English Certificates
                 </button>
+
 
             <div className="twelve columns collapsed" style={{ display: this.state.certificatesVisible ? 'block' : 'none' }}>
               <div className="bgrid-halves s-bgrid-thirds cf">
@@ -150,11 +157,12 @@ class Resume extends Component {
 
             <div className="nine columns main-col">{work}
             <div className="download">
-                  <p>
-                    <a href={thesispdf} className="button">
-                      <i className="thesisbotton fa fa-download"></i>Download Thesis (.pdf)
+                  
+                    <a href={thesispdf} className="button second">
+                      <i ></i>Download Thesis (.pdf)
                     </a>
-                  </p>
+                    
+                  
                 </div>
             </div>
            
